@@ -5,15 +5,15 @@ We use a feature-branch workflow to manage changes, which keeps our `main` branc
 ## 1. Branches
 
 *   **`main`**: This branch always reflects the latest production-ready code. Commits are not allowed directly to `main`.
-*   **`develop`**: This branch contains the latest integrated changes from all features. All feature branches should branch off `develop`.
+*   **`dev`**: This branch contains the latest integrated changes from all features. All feature branches should branch off `dev`.
 *   **`feature/<feature-name>`**: Created for every new feature or task. Use a descriptive name (e.g., `feature/add-contact-form`).
 
 ## 2. Process
 
-1.  **Sync your local `develop` branch**:
+1.  **Sync your local `dev` branch**:
     ```bash
-    git checkout develop
-    git pull origin develop
+    git checkout dev
+    git pull origin dev
     ```
 
 2.  **Create a new feature branch**:
@@ -25,9 +25,9 @@ We use a feature-branch workflow to manage changes, which keeps our `main` branc
     *   *Bad:* `fixed things`
     *   *Good:* `feat(contact): Add contact form submission logic`
 
-4.  **Sync frequently**: Pull the latest changes from the `develop` branch into your feature branch to prevent large merge conflicts later.
+4.  **Sync frequently**: Pull the latest changes from the `dev` branch into your feature branch to prevent large merge conflicts later.
     ```bash
-    git pull origin develop
+    git pull origin dev
     ```
 
 5.  **Push your changes**:
