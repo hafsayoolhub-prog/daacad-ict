@@ -1,10 +1,11 @@
 import Navbar from "./components/Navbar"
+import Home from "./pages/Home"
 
 function App() {
   return (
     <div>
       <Navbar />
-      <h2 >DAACAD ICT SOLUTIONS</h2>
+      <Home />
     </div>
   )
 }
