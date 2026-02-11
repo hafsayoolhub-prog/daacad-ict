@@ -51,7 +51,7 @@ const servicesData = [
 const ServicesSection = () => {
   return (
     // Main services section
-    <section className="py-16 bg-gray-50">
+    <section className="max-w-[80%] mx-auto py-16 bg-gray-50 font-[Manrope]">
       <div className="max-w-5xl mx-auto">
         {/* Section header */}
         <div className="flex justify-between items-center mb-12">

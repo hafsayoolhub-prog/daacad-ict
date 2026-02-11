@@ -42,7 +42,7 @@ const Navbar = () => {
 
         {/* Call to action */}
         <NavLink to="/contact">
-          <button className="inline-flex items-center justify-center gap-1 bg-[#df5f0f] text-white px-4 py-2 rounded hover:bg-orange-600 transition-colors">
+          <button className="inline-flex items-center justify-center gap-1 bg-[#df5f0f] text-white px-4 py-2 rounded hover:bg-orange-500 transition-colors">
             <span>Contact</span>
             <ArrowRight className="size-4 relative top-1px" />
           </button>
