@@ -2,7 +2,7 @@ import { ArrowUpRight } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="w-full py-24 px-6">
+    <section className="w-full py-24 px-6 font-[Manrope]">
       <div className="max-w-5xl mx-auto text-center">
         {/* Label */}
         <p className="text-sm tracking-widest text-[#39152e] mb-6">
